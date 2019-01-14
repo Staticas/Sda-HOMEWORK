@@ -1,0 +1,72 @@
+HOMEWORK N1
+
+ls -al
+ls --> command that will do some or receive some parameters
+    -a, --all
+          do not ignore entries starting with .
+    -l     use a long listing format
+	
+cat
+The cat (short for “concatenate“) command is one of the most frequently used command in Linux/Unix like operating systems.
+ cat command allows us to create single or multiple files, view contain of file,
+ concatenate files and redirect output in terminal or files.
+cd ..
+The effect is that your current directory changes to one folder up. (Change to the parent directory.)
+
+cd ~
+The above command simply takes you back to your home directory. 
+It is a great shortcut. If you have navigated to another folder such as the /var/logs or 
+/mnt etc then typing cd ~ returns you back to your user's home directory.
+
+cd <folder-name>
+changes directory to the specific adress wich is <folder-name>
+
+mkdir
+creates a directory (folder) can be used to craete a directory without navigating there by using a spicific path.
+
+touch
+creates a file 
+
+HOMEWORK N2
+
+pavel@DESKTOP-R1H506K MINGW64 /c
+$ mkdir dir0
+
+pavel@DESKTOP-R1H506K MINGW64 /c
+$ cd \dir0
+
+pavel@DESKTOP-R1H506K MINGW64 /c/dir0
+$ mkdir dir1
+
+pavel@DESKTOP-R1H506K MINGW64 /c/dir0
+$ mkdir dir2
+
+pavel@DESKTOP-R1H506K MINGW64 /c/dir0
+$ cd \dir2
+
+pavel@DESKTOP-R1H506K MINGW64 /c/dir0/dir2
+$ mkdir dir2.1
+
+pavel@DESKTOP-R1H506K MINGW64 /c/dir0/dir2
+$ dir
+dir2.1
+
+pavel@DESKTOP-R1H506K MINGW64 /c/dir0/dir2
+$ cd ..
+
+pavel@DESKTOP-R1H506K MINGW64 /c/dir0
+$ cd \dir1
+
+pavel@DESKTOP-R1H506K MINGW64 /c/dir0/dir1
+$ touch file1.txt
+
+pavel@DESKTOP-R1H506K MINGW64 /c/dir0/dir1
+$ touch file2.java
+
+pavel@DESKTOP-R1H506K MINGW64 /c/dir0/dir1
+$ dir
+file1.txt  file2.java
+
+pavel@DESKTOP-R1H506K MINGW64 /c/dir0/dir1
+$
+
